@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap" rel="stylesheet">
+        <title>Verifica Telefone</title>
+    <body>
+            <div class="container">
+                <h1 class="titulo">Verifique o número de telefone</h1>
+                <img class="img" src="img/Calling.gif"></img>
+                <form id="form" action="" class="form">
+                    <label class="lbl" for="" >Digite o telefone</label>
+                    <input type="number" id="tel" placeholder="Ex: 5511976465734" required>
+                   <button> Verificar </button>
+                </form>
+            <div class="org">
+                <div class="parag">
+                    <p>Status:</p>
+                    <p>Telefone:</p>  
+                    <p>País:</p>  
+                    <p>Estado:</p> 
+                </div>
+                
+                    <div class="dados-tela">
+                        <p class="api"></p>
+                    </div>
+            </div>
+    <div class="org">
+        <h1>Histórico</h1>
+        <div class="historico" id="array"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/filtro.js"></script>
+</body>
+</html>

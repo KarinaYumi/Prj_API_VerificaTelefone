@@ -1,0 +1,105 @@
+body {
+    font-family: 'Phudu', cursive;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #f0f0f0;
+}
+.titulo {
+    font-size: 3.2vw;
+    text-align: center;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 1%;
+    background-color: #151D3B;
+    max-width: 900px; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 15px 5px 5px #adacac;
+}
+
+.img {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.org {
+    width: 90%;
+    max-width: 600px;
+    background-color: #D82148;
+    border-radius: 47px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+label {
+    font-size: 3vw;
+    text-align: center;
+    margin: 10px 0;
+    color: aliceblue;
+}
+
+input {
+    width: 50%;
+    max-width: 300px;
+    height: 35px;
+    border: none;
+    display: flex;
+    border-radius: 12px;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    height: 40px;
+    width: 40%;
+    max-width: 160px;
+    border-radius: 15px;
+    background-color: #D82148;
+    color: aliceblue;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+button:hover {
+    background-color: #ff0048a1;
+}
+
+.parag {
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-left: 4%;
+}
+
+.api {
+    font-size: 2.5vw;
+    margin-left: 4%;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.historico{
+    font-size: 30px;
+    color: #f0f0f0;
+}
